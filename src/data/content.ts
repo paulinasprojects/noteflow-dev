@@ -58,27 +58,27 @@ const navigationLinks = [
 const reviews = [
   {
     id: 1,
-    src: new URL("../assets/headshots/img-11.webp", import.meta.url),
+    src: "src/assets/headshots/img-11.webp",
     alt: "Rachel Foster",
   },
   {
     id: 2,
-    src: new URL("../assets/headshots/img-7.webp", import.meta.url),
+    src: "src/assets/headshots/img-7.webp",
     alt: "Emily Thompson",
   },
   {
     id: 3,
-    src: new URL("../assets/headshots/img-5.webp", import.meta.url),
+    src: "src/assets/headshots/img-5.webp",
     alt: "Daniel Harris",
   },
   {
     id: 4,
-    src: new URL("../assets/headshots/img-9.webp", import.meta.url),
+    src: "src/assets/headshots/img-9.webp",
     alt: "Sarah Lee",
   },
   {
     id: 5,
-    src: new URL("../assets/headshots/img-15.webp", import.meta.url),
+    src: "src/assets/headshots/img-15.webp",
     alt: "Lucas King",
   },
 ];
