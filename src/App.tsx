@@ -1,3 +1,4 @@
+import { Features } from "./components/features"
 import { Hero } from "./components/hero"
 import { HeroReviews } from "./components/hero-reviews"
 import { MainSection } from "./components/main-section"
@@ -14,6 +15,7 @@ function App() {
     </Navbar>
     <MainSection>
       <Organizations/>
+      <Features/>
     </MainSection>
   </Homepage>
  )
