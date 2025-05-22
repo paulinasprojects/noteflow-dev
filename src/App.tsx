@@ -1,8 +1,11 @@
+import { Navbar } from "./components/navbar"
+import Homepage from "./pages/home-page"
+
 function App() {
  return (
-  <div>
-    Hello world
-  </div>
+  <Homepage>
+    <Navbar/>
+  </Homepage>
  )
 }
 
