@@ -513,3 +513,43 @@ export const Slack = (props: SVGProps<SVGSVGElement>) => {
     </svg>
   )
 }
+export const ArrowRightLine = (props: SVGProps<SVGSVGElement>) => {
+  return (
+    <svg
+      width="19"
+      height="2"
+      viewBox="0 0 19 2"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={props.className}
+    >
+      <path
+        d="M1 1H17.83"
+        strokeWidth={props.width}
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+export const ArrowRight = (props: SVGProps<SVGSVGElement>) => {
+  return (
+     <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={props.className}
+    >
+      <path
+        d="M8.91 19.797L15.43 13.277C16.2 12.507 16.2 11.247 15.43 10.477L8.91 3.95703"
+        strokeWidth={props.width}
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}

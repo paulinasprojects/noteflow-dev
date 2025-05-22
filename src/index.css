@@ -44,5 +44,5 @@
 }
 
 .primary-glow-hover {
-  @apply drop-shadow-[0px_0px_25px_var(--color-primary-50-glow)];
+  @apply hover:drop-shadow-[0px_0px_25px_var(--color-primary-50-glow)];
 }
