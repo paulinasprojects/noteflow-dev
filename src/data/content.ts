@@ -86,42 +86,42 @@ const reviews = [
 const logos = [
   {
     id: 1,
-    src: new URL("../assets/logos/Netflix.webp", import.meta.url),
+    src: "src/assets/logos/Netflix.webp",
     alt: "Netflix Logo",
   },
   {
     id: 2,
-    src: new URL("../assets/logos/ExxonMobile.webp", import.meta.url),
+    src: "src/assets/logos/ExxonMobile.webp",
     alt: "Exxon Mobile Logo",
   },
   {
     id: 3,
-    src: new URL("../assets/logos/Microsoft.webp", import.meta.url),
+    src: "src/assets/logos/Microsoft.webp",
     alt: "Microsoft Logo",
   },
   {
     id: 4,
-    src: new URL("../assets/logos/Vice.webp", import.meta.url),
+    src: "src/assets/logos/Vice.webp",
     alt: "Vice Logo",
   },
   {
     id: 5,
-    src: new URL("../assets/logos/Walmart.webp", import.meta.url),
+    src: "src/assets/logos/Walmart.webp",
     alt: "Walmart Logo",
   },
   {
     id: 6,
-    src: new URL("../assets/logos/Chase.webp", import.meta.url),
+    src: "src/assets/logos/Chase.webp",
     alt: "Chase Logo",
   },
   {
     id: 7,
-    src: new URL("../assets/logos/Visa.webp", import.meta.url),
+    src: "src/assets/logos/Visa.webp",
     alt: "Visa Logo",
   },
   {
     id: 8,
-    src: new URL("../assets/logos/Amazon.webp", import.meta.url),
+    src: "src/assets/logos/Amazon.webp",
     alt: "Amazon Logo",
   },
 ];

@@ -1,6 +1,8 @@
 import { Hero } from "./components/hero"
 import { HeroReviews } from "./components/hero-reviews"
+import { MainSection } from "./components/main-section"
 import { Navbar } from "./components/navbar"
+import { Organizations } from "./components/organizations"
 import Homepage from "./pages/home-page"
 
 function App() {
@@ -10,6 +12,9 @@ function App() {
       <Hero/>
       <HeroReviews/>
     </Navbar>
+    <MainSection>
+      <Organizations/>
+    </MainSection>
   </Homepage>
  )
 }
