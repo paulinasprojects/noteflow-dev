@@ -14,3 +14,21 @@ export type questionType = {
   question: string;
   answer: string;
 };
+
+export type testimonialsTypes = {
+  id: number;
+  rating: number;
+  description: string;
+  src: string;
+  name: string;
+  title: string;
+}[];
+
+export type testimonialType = {
+  id: number;
+  rating: number;
+  description: string;
+  src: string;
+  name: string;
+  title: string;
+};

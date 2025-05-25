@@ -556,7 +556,7 @@ export const ArrowRight = (props: SVGProps<SVGSVGElement>) => {
 }
 
 type CustomProps = {
- activeQuestion: boolean;
+ activeQuestion?: boolean;
 };
 
 

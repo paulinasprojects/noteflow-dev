@@ -325,7 +325,7 @@ const testimonials = [
     description:
       "NoteFlow has completely transformed the way I manage my work notes. The AI-powered organization feature \
     makes it so easy to find what I need, even weeks after the fact.",
-    src: new URL("../assets/headshots/img-7.webp", import.meta.url),
+    src: "src/assets/headshots/img-7.webp",
     name: "Emily Thompson",
     title: "Senior Manager",
   },
@@ -335,7 +335,7 @@ const testimonials = [
     description:
       "As a designer, I need a tool that helps me keep track of brainstorming sessions and project notes. NoteFlow’s \
     voice-to-text transcription is a game-changer!",
-    src: new URL("../assets/headshots/img-3.webp", import.meta.url),
+    src: "src/assets/headshots/img-3.webp",
     name: "Michael Carter",
     title: "Product Designer",
   },
@@ -345,7 +345,7 @@ const testimonials = [
     description:
       "I love how NoteFlow integrates with tools like Google Drive and Slack. It makes collaboration with my team so \
     much smoother. The contextual reminders have helped me stay on top of critical deadlines.",
-    src: new URL("../assets/headshots/img-9.webp", import.meta.url),
+    src: "src/assets/headshots/img-9.webp",
     name: "Sarah Lee",
     title: "Business Analyst",
   },
@@ -355,7 +355,7 @@ const testimonials = [
     description:
       "The smart organization of my notes is impressive. I used to waste time searching for information, but now \
     NoteFlow does the heavy lifting, automatically categorizing everything. It’s an indispensable part of my workflow.",
-    src: new URL("../assets/headshots/img-4.webp", import.meta.url),
+    src: "src/assets/headshots/img-4.webp",
     name: "Jonathan Moore",
     title: "Software Engineer",
   },
@@ -365,7 +365,7 @@ const testimonials = [
     description:
       "NoteFlow has made managing multiple projects so much easier. I can quickly access and organize my notes, \
     and the contextual reminders keep me on track. It’s the best tool I’ve found for staying organized.",
-    src: new URL("../assets/headshots/img-15.webp", import.meta.url),
+    src: "src/assets/headshots/img-15.webp",
 
     name: "Rachel Foster",
     title: "Project Manager",
@@ -376,7 +376,7 @@ const testimonials = [
     description:
       "As a startup founder, my days are packed with meetings and ideas. NoteFlow’s voice-to-text feature lets \
     me capture thoughts while I’m on the move. Plus, the cloud storage sync keeps everything safe and easily accessible.",
-    src: new URL("../assets/headshots/img-5.webp", import.meta.url),
+    src: "src/assets/headshots/img-5.webp",
     name: "Daniel Harris",
     title: "Entrepreneur",
   },
@@ -386,7 +386,7 @@ const testimonials = [
     description:
       "I’ve tried many note-taking apps, but none compare to NoteFlow. The AI-driven categorization helps me keep my \
     content ideas organized and searchable, saving me hours every week. Highly recommended!",
-    src: new URL("../assets/headshots/img-1.webp", import.meta.url),
+    src: "src/assets/headshots/img-1.webp",
     name: "Olivia Carter",
     title: "Content Strategist",
   },
@@ -396,7 +396,7 @@ const testimonials = [
     description:
       "The voice-to-text transcription is incredibly accurate and saves me so much time when documenting meetings. \
     Plus, I love how seamlessly it integrates with tools like Trello and Slack. NoteFlow is a must-have for anyone in design.",
-    src: new URL("../assets/headshots/img-6.webp", import.meta.url),
+    src: "src/assets/headshots/img-6.webp",
     name: "Thomas Williams",
     title: "UX/UI Designer",
   },
@@ -406,7 +406,7 @@ const testimonials = [
     description:
       "I rely heavily on my notes during client calls and follow-ups. The ability to automatically receive reminders \
     based on my notes has made my follow-up process much smoother and more efficient. NoteFlow has been a game-changer!",
-    src: new URL("../assets/headshots/img-8.webp", import.meta.url),
+    src: "src/assets/headshots/img-8.webp",
     name: "Jessica Gonzalez",
     title: "Sales Executive",
   },
@@ -416,7 +416,7 @@ const testimonials = [
     description:
       "I can’t say enough about how helpful NoteFlow’s integrations are. Syncing my notes with Google Drive and other apps \
     has streamlined my work processes. It’s helped me stay organized and efficient in an ever-changing environment.",
-    src: new URL("../assets/headshots/img-13.webp", import.meta.url),
+    src: "src/assets/headshots/img-13.webp",
     name: "Aaron Mitchell",
     title: "Customer Support",
   },
@@ -426,7 +426,7 @@ const testimonials = [
     description:
       "NoteFlow has been a lifesaver for organizing meeting summaries. The AI organization \
     categorizes everything, so I no longer have to worry about sorting through piles of documents!",
-    src: new URL("../assets/headshots/img-10.webp", import.meta.url),
+    src: "src/assets/headshots/img-10.webp",
     name: "Grace Stevens",
     title: "HR Manager",
   },
@@ -436,7 +436,7 @@ const testimonials = [
     description:
       "I’m always jotting down ideas and notes for various writing projects. The voice-to-text feature lets me capture my thoughts \
     while I’m out and about.",
-    src: new URL("../assets/headshots/img-14.webp", import.meta.url),
+    src: "src/assets/headshots/img-14.webp",
     name: "Ben Turner",
     title: "Freelance Writer",
   },
@@ -446,7 +446,7 @@ const testimonials = [
     description:
       "With NoteFlow, I’m able to keep track of ideas, strategies, and feedback effortlessly. The contextual reminders are perfect \
     for ensuring I follow up on key tasks and deadlines. It’s become an essential part of my daily routine.",
-    src: new URL("../assets/headshots/img-12.webp", import.meta.url),
+    src: "src/assets/headshots/img-12.webp",
     name: "Katherine Evans",
     title: "Marketing Director",
   },
@@ -456,7 +456,7 @@ const testimonials = [
     description:
       "As someone who juggles multiple responsibilities, NoteFlow keeps me organized without any hassle. The seamless integrations \
     with tools like Slack and Google Drive allow my team and I to stay in sync and work more efficiently.",
-    src: new URL("../assets/headshots/img-15.webp", import.meta.url),
+    src: "src/assets/headshots/img-15.webp",
     name: "Lucas King",
     title: "CEO",
   },
@@ -466,7 +466,7 @@ const testimonials = [
     description:
       "NoteFlow's ability to capture and organize my notes in such a detailed yet easy-to-use way has made a huge difference \
     in my creative process. Whether I'm brainstorming or taking project notes, it’s my go-to app for staying organized.",
-    src: new URL("../assets/headshots/img-2.webp", import.meta.url),
+    src: "src/assets/headshots/img-2.webp",
     name: "Natalie James",
     title: "Graphic Designer",
   },
