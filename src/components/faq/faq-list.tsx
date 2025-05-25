@@ -32,7 +32,7 @@ export const FaqList = ({ handleQuestionClick, category, questions, activeQuesti
       whileInView={{opacity: 1}}
       onViewportEnter={() => setInView(true)}
       onViewportLeave={() => setInView(false)}
-      viewport={{once: false, amount: "all"}}
+      viewport={{once: false}}
     >
       {questions.map((question) => (
         <Faq
