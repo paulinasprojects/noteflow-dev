@@ -7,3 +7,10 @@ export type questionsTypes = {
   question: string;
   answer: string;
 }[];
+export type questionType = {
+  id: number;
+  alt: string;
+  Icon: (props: React.SVGProps<SVGSVGElement>) => React.JSX.Element;
+  question: string;
+  answer: string;
+};
