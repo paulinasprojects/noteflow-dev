@@ -1,3 +1,4 @@
+import { Faqs } from "./components/faq/faqs"
 import { Features } from "./components/features"
 import { Hero } from "./components/hero"
 import { HeroReviews } from "./components/hero-reviews"
@@ -16,6 +17,7 @@ function App() {
     <MainSection>
       <Organizations/>
       <Features/>
+      <Faqs/>
     </MainSection>
   </Homepage>
  )
