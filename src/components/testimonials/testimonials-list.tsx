@@ -1,4 +1,5 @@
-import type { testimonialsTypes } from "../../data/types"
+import type { testimonialsTypes } from "../../data/types";
+import { Testimonial } from "./testimonial";
 
 interface Props {
   testimonials: testimonialsTypes;
@@ -6,6 +7,13 @@ interface Props {
 
 export const TestimonialList = ({testimonials}: Props) => {
   return (
-    <div>TestimonialList</div>
+    <ul className="flex flex-col gap-y-6">
+      {testimonials.map((testimonial) => (
+        <Testimonial
+          key={testimonial.name}
+          testimonial={testimonial}
+        />
+      ))}
+    </ul>
   )
 }
