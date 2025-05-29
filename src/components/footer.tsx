@@ -5,14 +5,14 @@ export const Footer = () => {
   return (
     <footer className="bg-gradient-to-bottom">
       <div className="m-auto flex max-w-[90rem] justify-between px-24 py-32">
-        {/* Left */}
+
         <div className="">
           <a href="#" className="flex items-center gap-x-3">
             <Logo className="stroke-primary-500" width={5}/>
             <p className="text-primary-50 text-xl font-bold tracking-tight">NoteFlow</p>
           </a>
         </div>
-        {/* Right */}
+
         <div className="grid grid-cols-[repeat(4,max-content)] gap-x-24">
           {footerCols.map((col) => (
             <div className="" key={col.id}>
