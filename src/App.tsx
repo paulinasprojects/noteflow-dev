@@ -9,26 +9,29 @@ import { SignUpModal } from "./components/modals/sign-up-modal"
 import { Navbar } from "./components/navbar"
 import { Organizations } from "./components/organizations"
 import { Testimonials } from "./components/testimonials/testimonials"
+import { ModalContextProvider } from "./context/modal-context"
 import Homepage from "./pages/home-page"
 
 function App() {
  return (
-  <Homepage>
-    <Navbar>
-      <Hero/>
-      <HeroReviews/>
-    </Navbar>
-    <MainSection>
-      <Organizations/>
-      <Features/>
-      <Faqs/>
-      <Testimonials/>
-    </MainSection>
-    <Footer/>
-    <Modal>
-      <SignUpModal/>
-    </Modal>
-  </Homepage>
+  <ModalContextProvider>
+    <Homepage>
+      <Navbar>
+        <Hero/>
+        <HeroReviews/>
+      </Navbar>
+      <MainSection>
+        <Organizations/>
+        <Features/>
+        <Faqs/>
+        <Testimonials/>
+      </MainSection>
+      <Footer/>
+      <Modal modal="sign-up">
+        <SignUpModal/>
+      </Modal>
+    </Homepage>
+  </ModalContextProvider>
  )
 }
 

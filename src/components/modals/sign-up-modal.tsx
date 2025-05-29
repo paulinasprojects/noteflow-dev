@@ -1,3 +1,4 @@
+import { useModalContext } from "../../context/modal-context";
 import classNames from "../../lib/utils";
 import { Close, Checkmark } from "../icons";
 import { useState } from "react";
@@ -8,6 +9,7 @@ const initialState = {
 }
 
 export const SignUpModal = () => {
+  const { setActiveModal } = useModalContext();
   const [checked, setChecked] = useState<boolean>(false);
   const [inputs, setInputs] = useState(initialState);
 
@@ -25,6 +27,7 @@ export const SignUpModal = () => {
     if (checked) {
       console.log(inputs);
       setInputs(initialState)
+      setActiveModal("")
     }
   }
 
@@ -36,7 +39,7 @@ export const SignUpModal = () => {
       </div>
       <div className="bg-primary-1500 flex flex-col justify-between gap-y-24 bg-[url('src/assets/Noise.webp')] bg-repeat p-10">
         {/* Form */}
-        <button className="border-primary-75 hover:bg-primary-75 group transition-properties ml-auto w-fit cursor-pointer rounded-2xl border-2 p-3">
+        <button className="border-primary-75 hover:bg-primary-75 group transition-properties ml-auto w-fit cursor-pointer rounded-2xl border-2 p-3" onClick={() => setActiveModal("")}>
           <Close className="stroke-primary-75 group-hover:stroke-primary-1300 transition-properties" width={2}/>
         </button>
         <div className="text-primary-50 flex flex-col gap-y-6 text-lg/8 font-semibold tracking-tight">
