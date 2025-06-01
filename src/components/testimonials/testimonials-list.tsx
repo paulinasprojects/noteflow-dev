@@ -7,7 +7,7 @@ interface Props {
 
 export const TestimonialList = ({testimonials}: Props) => {
   return (
-    <ul className="flex flex-col gap-y-6">
+    <ul className="flex flex-col gap-y-6 max-xl:gap-y-4">
       {testimonials.map((testimonial) => (
         <Testimonial
           key={testimonial.name}

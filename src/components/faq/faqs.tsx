@@ -21,8 +21,8 @@ const handleCategoryClick = (category: string) => {
 
   return (
     <section className="bg-gradient-to-bottom justify-items-center">
-      <div className="w-full max-w-[90rem] py-32">
-        <h2 className="text-primary-50 mb-8 text-center text-6xl/18 font-semibold tracking-tighter">Frequently Asked Questions</h2>
+      <div className="w-full max-w-[90rem] py-32 max-xl:px-16 max-xl:py-24">
+        <h2 className="text-primary-50 mb-8 text-center text-6xl/18 font-semibold tracking-tighter max-xl:mb-6 max-xl:text-5xl/10">Frequently Asked Questions</h2>
         <div className="mb-8 text-xl/loose font-light">
           <p className="text-primary-100 text-center">The most commonly asked questions about NoteFlow. <br />
             Have any other questions? <a href="#" className="underline decoration-1 underline-offset-3">Chat with our expert tech team.</a>
@@ -32,7 +32,7 @@ const handleCategoryClick = (category: string) => {
           {frequentlyAskedQuestions.map((obj) => (
             <li key={obj.id}>
               <button 
-                className={classNames("border-primary-50 text-primary-50 transition-properties cursor-pointer rounded-full border-2 px-8 py-3.5 text-lg/8",
+                className={classNames("border-primary-50 text-primary-50 transition-properties cursor-pointer rounded-full border-2 px-8 py-3.5 text-lg/8 max-xl:px-6 max-xl:text-base/loose",
                   obj.category === category && "bg-primary-500 text-primary-1300 border-primary-500 primary-glow",
                   obj.category !== category && "hover:bg-primary-50 hover:text-primary-1300",
                 )}
