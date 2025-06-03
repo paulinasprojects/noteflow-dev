@@ -23,7 +23,12 @@ type ModalContextType = {
 
 
 function useModalContext() {
-  return useContext(ModalContext)
+  const context = useContext(ModalContext);
+  if (context === undefined) {
+     throw new Error("useModalContext must be within a ModalContextProvider")
+  }
+
+  return context;
 };
 
 

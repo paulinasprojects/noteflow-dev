@@ -63,9 +63,9 @@ export const TwoUsers = (props: SVGProps<SVGSVGElement>) => {
 export const Cloud = (props: SVGProps<SVGSVGElement>) => {
   return (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <path d="M5.54003 11.1201C0.860029 11.4501 0.860029 18.2601 5.54003 18.5901H7.46007" stroke="#ECFCFD" strokeWidth="2" stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-    <path d="M5.59003 11.1201C2.38003 2.19014 15.92 -1.37985 17.47 8.00015C21.8 8.55015 23.55 14.3201 20.27 17.1901C19.27 18.1001 17.98 18.6001 16.63 18.5901H16.54" stroke="#ECFCFD" strokeWidth="2" stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-    <path d="M17 16.5298C17 17.2698 16.84 17.9698 16.54 18.5898C16.46 18.7698 16.37 18.9398 16.27 19.0998C15.41 20.5498 13.82 21.5298 12 21.5298C10.18 21.5298 8.58998 20.5498 7.72998 19.0998C7.62998 18.9398 7.54002 18.7698 7.46002 18.5898C7.16002 17.9698 7 17.2698 7 16.5298C7 13.7698 9.24 11.5298 12 11.5298C14.76 11.5298 17 13.7698 17 16.5298Z" stroke="#ECFCFD" strokeWidth="2" stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M5.54003 11.1201C0.860029 11.4501 0.860029 18.2601 5.54003 18.5901H7.46007" stroke="#ECFCFD" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M5.59003 11.1201C2.38003 2.19014 15.92 -1.37985 17.47 8.00015C21.8 8.55015 23.55 14.3201 20.27 17.1901C19.27 18.1001 17.98 18.6001 16.63 18.5901H16.54" stroke="#ECFCFD" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M17 16.5298C17 17.2698 16.84 17.9698 16.54 18.5898C16.46 18.7698 16.37 18.9398 16.27 19.0998C15.41 20.5498 13.82 21.5298 12 21.5298C10.18 21.5298 8.58998 20.5498 7.72998 19.0998C7.62998 18.9398 7.54002 18.7698 7.46002 18.5898C7.16002 17.9698 7 17.2698 7 16.5298C7 13.7698 9.24 11.5298 12 11.5298C14.76 11.5298 17 13.7698 17 16.5298Z" stroke="#ECFCFD" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     <path d="M10.4399 16.5298L11.4299 17.5198L13.5599 15.5498" stroke="#ECFCFD" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
   </svg>
   )
@@ -425,6 +425,45 @@ export const Integrate = (props: SVGProps<SVGSVGElement>) => {
       <path
         d="M20.8 22H17.2C16.54 22 16 21.46 16 20.8V19.2C16 18.54 16.54 18 17.2 18H20.8C21.46 18 22 18.54 22 19.2V20.8C22 21.46 21.46 22 20.8 22Z"
         strokeWidth={props.width}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+export const Menu = (props: SVGProps<SVGSVGElement>) => {
+  return (
+     <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={props.className}
+    >
+      <path
+        d="M4.99988 10.0001H6.99988C8.99988 10.0001 9.99988 9.00006 9.99988 7.00006V5.00006C9.99988 3.00006 8.99988 2.00006 6.99988 2.00006H4.99988C2.99988 2.00006 1.99988 3.00006 1.99988 5.00006V7.00006C1.99988 9.00006 2.99988 10.0001 4.99988 10.0001Z"
+        strokeWidth={props.width}
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M16.9999 10.0001H18.9999C20.9999 10.0001 21.9999 9.00006 21.9999 7.00006V5.00006C21.9999 3.00006 20.9999 2.00006 18.9999 2.00006H16.9999C14.9999 2.00006 13.9999 3.00006 13.9999 5.00006V7.00006C13.9999 9.00006 14.9999 10.0001 16.9999 10.0001Z"
+        strokeWidth={props.width}
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M16.9999 22H18.9999C20.9999 22 21.9999 21 21.9999 19V17C21.9999 15 20.9999 14 18.9999 14H16.9999C14.9999 14 13.9999 15 13.9999 17V19C13.9999 21 14.9999 22 16.9999 22Z"
+        strokeWidth={props.width}
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4.99988 22H6.99988C8.99988 22 9.99988 21 9.99988 19V17C9.99988 15 8.99988 14 6.99988 14H4.99988C2.99988 14 1.99988 15 1.99988 17V19C1.99988 21 2.99988 22 4.99988 22Z"
+        strokeWidth={props.width}
+        strokeMiterlimit="10"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
