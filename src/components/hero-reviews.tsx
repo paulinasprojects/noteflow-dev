@@ -2,7 +2,7 @@ import { reviews } from "../data/content"
 
 export const HeroReviews = () => {
   return (
-    <section className="m-auto flex flex-wrap items-center gap-x-4 gap-y-4 max-w-[90rem] px-24 max-xl:px-16 max-xl:gap-x-3 max-lg:px-8">
+    <section className="m-auto flex flex-wrap items-center gap-x-4 gap-y-4 max-w-[90rem] px-24 max-xl:px-16 max-xl:gap-x-3 max-lg:px-8 max-md:px-6">
       <ul className="flex">
         {reviews.map((review) => (
           <li key={review.id} className="-mr-4 last:mr-0">

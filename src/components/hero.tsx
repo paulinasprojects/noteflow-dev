@@ -6,7 +6,7 @@ export const Hero = () => {
   const { setActiveModal } = useModalContext();
 
   return (
-    <section className="m-auto grid max-w-[90rem] grid-cols-[5fr_4fr] items-center gap-x-18 px-24 py-42 max-xl:grid-cols-2 max-xl:gap-x-12 max-xl:px-16 max-xl:py-38 max-lg:px-8 max-lg:py-32">
+    <section className="m-auto grid max-w-[90rem] grid-cols-[5fr_4fr] items-center gap-x-18 px-24 py-42 max-xl:grid-cols-2 max-xl:gap-x-12 max-xl:px-16 max-xl:py-38 max-lg:px-8 max-lg:py-32 max-md:grid-cols-1 max-md:grid-rows-[repeat(2,auto)] max-md:gap-y-12 max-md:px-6 max-md:py-24">
       <div>
         <h1 className="text-primary-50 mb-6 text-6xl/18 font-semibold tracking-tighter max-xl:mb-4 max-xl:text-5xl/16 max-lg:text-4xl/10 max-lg:tracking-tight">AI-Powered Notes.
           Organize and Summarize in Seconds
@@ -28,7 +28,7 @@ export const Hero = () => {
       </div>
       <div className="relative">
         <div className="absolute bg-primary-1300 top-0 right-0 bottom-0 left-0 rounded-full blur-3xl"/>
-        <img src={heroGraphic} alt="hero graphic showing note sumarizer functionality" className="relative max-h-[30rem] justify-self-end" />
+        <img src={heroGraphic} alt="hero graphic showing note sumarizer functionality" className="relative max-h-[30rem] justify-self-end max-md:max-h-auto max-md:max-w-[90%] max-md:justify-self-center" />
       </div>
     </section>
   )
