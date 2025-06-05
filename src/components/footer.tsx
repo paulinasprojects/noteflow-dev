@@ -4,7 +4,7 @@ import { Logo } from "./icons";
 export const Footer = () => {
   return (
     <footer className="bg-gradient-to-bottom">
-      <div className="m-auto flex max-w-[90rem] justify-between px-24 py-32 max-xl:px-16 max-xl:py-24 max-lg:grid max-lg:gap-y-18 max-lg:px-8 max-md:px-6">
+      <div className="m-auto flex max-w-[90rem] justify-between px-24 py-32 max-xl:px-16 max-xl:py-24 max-lg:grid max-lg:gap-y-18 max-lg:px-8 max-md:px-6 max-sm:pb-16">
 
         <div>
           <a href="#" className="flex items-center gap-x-3 max-md:gap-x-2">

@@ -14,7 +14,7 @@ export const Navbar = ({ children }: NavbarProps) => {
   const { setActiveModal } = useModalContext();
 
   return (
-    <header className="bg-gradient-to-bottom py-10 max-xl:py-8 max-lg:pb-24 max-md:pt-11 max-md:pb-24">
+    <header className="bg-gradient-to-bottom py-10 max-xl:py-8 max-lg:pb-24 max-md:pt-11 max-md:pb-24 max-sm:pt-8">
       <nav className="text-primary-50 m-auto flex justify-between max-w-[90rem] px-24 text-lg/8 font-light max-xl:px-16 max-xl:text-base/loose max-lg:px-8 max-md:px-6">
         <a href="#" className="flex items-center gap-x-3 max-md:gap-x-2">
           <Logo className="h-6 max-md:h-5" width={5}/>
