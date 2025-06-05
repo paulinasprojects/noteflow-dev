@@ -23,7 +23,7 @@ export const Faq = ({ question, activeQuestion, handleQuestionClick }: Props) =>
         <div className="border-primary-50 mr-6 rounded-xl border-2 p-3.5">
           <question.Icon  className="stroke-primary-50"/>
         </div>
-        <p className="text-primary-50 mr-auto pr-4 text-left text-xl/loose font-medium tracking-tight">{question.question}</p>
+        <p className="text-primary-50 mr-auto pr-4 text-left text-xl/loose font-medium tracking-tight max-lg:text-lg/8 max-lg:font-semibold">{question.question}</p>
         <div className="flex h-12 w-12 shrink-0 items-center justify-center">
           <CaretUp
             activeQuestion={activeQuestion === question.id}
@@ -32,7 +32,7 @@ export const Faq = ({ question, activeQuestion, handleQuestionClick }: Props) =>
           />
         </div>
       </button>
-      <motion.p className="text-primary-100 pt-0 pr-14 pl-20 text-lg/8 font-light"
+      <motion.p className="text-primary-100 pt-0 pr-14 pl-20 text-lg/8 font-light max-lg:text-base/loose"
         initial={ {opacity: 0, maxHeight: 0, visibility: "hidden"} }
         animate={activeQuestion === question.id ? {
           opacity: 1,

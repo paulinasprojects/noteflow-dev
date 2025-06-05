@@ -4,7 +4,7 @@ import { Logo } from "./icons";
 export const Footer = () => {
   return (
     <footer className="bg-gradient-to-bottom">
-      <div className="m-auto flex max-w-[90rem] justify-between px-24 py-32 max-xl:px-16 max-xl:py-24">
+      <div className="m-auto flex max-w-[90rem] justify-between px-24 py-32 max-xl:px-16 max-xl:py-24 max-lg:grid max-lg:gap-y-18 max-lg:px-8">
 
         <div className="">
           <a href="#" className="flex items-center gap-x-3">
@@ -13,7 +13,7 @@ export const Footer = () => {
           </a>
         </div>
 
-        <div className="grid grid-cols-[repeat(4,max-content)] gap-x-24 max-xl:gap-x-18">
+        <div className="grid grid-cols-[repeat(4,max-content)] gap-x-24 max-xl:gap-x-18 max-lg:gap-x-24">
           {footerCols.map((col) => (
             <div className="" key={col.id}>
               <p className="text-primary-50 mb-8 text-xl/loose font-semibold">{col.category}</p>

@@ -16,6 +16,7 @@ export const MobileMenu = () => {
   return (
     <motion.div className="bg-primary-1300/50 fixed top-0 bottom-0 left-0 right-0 z-50 flex justify-end px-6 pl-28 py-6 backdrop-blur-sm"
       animate={mobileMenuOpened ? "visible" : "hidden"}
+      initial="hidden"
       variants={{
         hidden: {
           opacity: 0,
@@ -32,6 +33,7 @@ export const MobileMenu = () => {
     >
       <motion.div className="bg-primary-1400 flex basis-80 flex-col justify-between rounded-2xl bg-[url('/src/assets/Noise.webp')] bg-repeat px-6 py-8"
         animate={mobileMenuOpened ? "visible" : "hidden"}
+        initial="hidden"
         variants={{
         hidden: {
           opacity: 0,
